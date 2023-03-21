@@ -9,7 +9,7 @@ import { IphoneComponent } from './apple/iphone/iphone.component';
 import { StoreComponent } from './apple/store/store.component';
 import { SupportComponent } from './apple/support/support.component';
 import { CartComponent } from './apple/cart/cart.component';
-
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -24,9 +24,10 @@ import { CartComponent } from './apple/cart/cart.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
