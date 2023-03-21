@@ -1,0 +1,66 @@
+ .search1 {
+     width: 30px;
+     height: 30px;
+     object-fit: contain;
+
+
+ }
+
+ .color7 {
+     width: 25px;
+     height: 25px;
+     object-fit: contain;
+
+ }
+
+ .text {
+     position: absolute;
+     margin: -350px 0 0 500px;
+
+ }
+
+ .text1 {
+     position: absolute;
+     margin: -250px 0 0 200px;
+
+ }
+
+ .all p a:link,
+ .all p a:visited {
+     font-family: arial;
+     font-size: 14px;
+     color: gray;
+     text-decoration: none;
+
+
+ }
+
+ .all p a:hover {
+     color: #3853d8;
+     text-decoration: underline;
+ }
+
+ .all1 p a:link,
+ .all1 p a:visited {
+     font-family: arial;
+     font-size: 24px;
+     color: #3853d8;
+     text-decoration: none;
+
+
+ }
+
+ .all1 p a:hover {
+     color: #3853d8;
+     text-decoration: underline;
+ }
+
+ .margin {
+     margin: 0 0 40px 10px;
+ }
+
+ @media only screen and (max-width:734px) {
+     .margin {
+         margin: 0 0 0 0;
+     }
+ }

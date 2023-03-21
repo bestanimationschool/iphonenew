@@ -3,10 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { IphoneComponent } from './apple/iphone/iphone.component';
+import { StoreComponent } from './apple/store/store.component';
+import { SupportComponent } from './apple/support/support.component';
+import { CartComponent } from './apple/cart/cart.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    IphoneComponent,
+    StoreComponent,
+    SupportComponent,
+    CartComponent,
+
   ],
   imports: [
     BrowserModule,
